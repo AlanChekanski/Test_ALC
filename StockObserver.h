@@ -48,6 +48,18 @@
 
 #import <Cocoa/Cocoa.h>
 
+// source code change (comment) to test git 
+// Okay source code up on github. Another change to test pushing...
+
+
+@interface StockMarket : NSObject {
+    NSTextField *stockSymbolField;
+    NSTextField *test;
+    NSTextField *stockPriceField;
+}
+
+@end
+
 @interface StockObserver : NSObject {
     NSTextField *stockSymbolField;
     NSTextView *stockNewsField;
