@@ -47,7 +47,7 @@
  */
 
 #import "StockObserver.h"
-
+/
 extern void AddStockNotificationObserver(const void *observer, CFStringRef stockSymbol);
 extern void RemoveStockNotificationObserver(const void *observer, CFStringRef stockSymbol);
 extern void RemoveObserverForAllStocks(const void *observer);
@@ -55,6 +55,7 @@ extern void RemoveObserverForAllStocks(const void *observer);
 @implementation StockObserver
 
 // The callback, as an ObjC method. We put the data in the status area
+// testing git
 
 - (void)stockChanged:(NSString *)stockSymbol newPrice:(double)newPrice {
     NSString *newLine = [NSString stringWithFormat:@"%@ new price: $%.2f\n", stockSymbol, newPrice];
