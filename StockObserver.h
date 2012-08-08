@@ -63,6 +63,7 @@
 @interface StockObserver : NSObject {
     NSTextField *stockSymbolField;
     NSTextField *test;
+    NSTextField *test1; // still unable to push changes
     NSTextView *stockNewsField;
 }
 
