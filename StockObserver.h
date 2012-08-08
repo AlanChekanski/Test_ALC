@@ -64,6 +64,7 @@
     NSTextField *stockSymbolField;
     NSTextField *test;
     NSTextField *test1; // still unable to push changes
+    NSTextField *test2; // Used GUI to git branch up there. Now trying merge.
     NSTextView *stockNewsField;
 }
 
