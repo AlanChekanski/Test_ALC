@@ -62,6 +62,7 @@
 
 @interface StockObserver : NSObject {
     NSTextField *stockSymbolField;
+    NSTextField *test;
     NSTextView *stockNewsField;
 }
 
